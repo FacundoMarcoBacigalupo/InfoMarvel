@@ -1,0 +1,71 @@
+    .menuBar img{
+        width: 30px;
+        height: 30px;
+        }
+
+        .navbar-toggler{
+        color: #1b1b1b;
+        border-color: transparent;
+        transition: all 2s;
+        }
+
+        .navbarColor{
+            background-color: #363636; 
+        }
+
+
+        #logo{
+        height: 80px;
+        width: 200px;
+        border-radius: 10px;
+        object-fit: cover;
+        object-position: center;
+        }
+        #logo:active{
+            scale: 0.8;
+            transition: all .8s;
+            filter: drop-shadow(0px 2px 3px #696969);
+        }
+        #logo:hover{
+            filter: drop-shadow(0px 2px 3px #696969);
+            transition: all .8s;
+        }
+
+        #menuBar{
+            margin: 0px;
+            padding: 0px;
+            height: 30px;
+            width: 30px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+
+        .barraNav{
+        justify-content: end;
+        text-align: center;
+        padding: 10px;
+        }
+
+
+        .estilos{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #d1d1d1; 
+        }
+
+        .estilos:active{
+            color: #434343;
+            scale: 0.9;
+            transition: all .5s;
+        }
+
+
+        li:hover{
+            filter: drop-shadow(0px 2px 3px #696969);
+            transition: all .5s;
+        }
+
+        li:active{
+            filter: drop-shadow(0px 2px 3px #696969);
+            transition: all .5s;
+        }

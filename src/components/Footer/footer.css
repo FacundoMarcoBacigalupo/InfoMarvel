@@ -1,0 +1,55 @@
+#containerFooter{
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "logoProsocheFooter rrss1 rrss2 rrss3"
+        "logoProsocheFooter rrss1 rrss2 rrss3"
+        "copyright copyright copyright copyright";
+    padding: 10px;
+}
+
+
+#rrss1{
+    grid-area: rrss1;
+}
+
+#rrss2{
+    grid-area: rrss2;
+}
+
+#rrss3{
+    grid-area: rrss3;
+}
+
+
+#logoProsocheFooter{
+    grid-area: logoProsocheFooter;
+    object-fit: cover;
+    object-position: center;
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+
+.imgsFooter{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.imgsFooter:hover{
+    filter: drop-shadow(0px 2px 3px #696969);
+    transition: all .8s;
+}
+
+
+#copyright{
+    grid-area: copyright;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2px;
+}

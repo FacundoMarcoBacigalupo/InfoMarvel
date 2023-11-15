@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-width: auto;
+  scrollbar-color: #181818 #444444;
+}
+
+
+
+body{
+  background-color: #181818;
+  background-image: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
+  background-position: 0 0;
+  background-size: 200px 200px;
+  color: #c9c9c9;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body::-webkit-scrollbar{
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+  background-image: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
+  background-position: 0 0;
+  background-size: 200px 200px;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #444444;
+  border-radius: 20px;
+}
+
+
+
+.titleHome{
+  margin: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: solid 2px #1a1a1a;
+}

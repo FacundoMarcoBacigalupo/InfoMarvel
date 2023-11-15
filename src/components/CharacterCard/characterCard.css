@@ -1,0 +1,49 @@
+.cardContainer{
+    border-bottom: solid 2px #292929;
+    padding: 10px;
+    margin: 60px;
+}
+.cardContainer:hover{
+    background-color: #161616;
+    transition: all 1s;
+    border-radius: 20px;
+}
+
+
+
+.imgHero{
+    object-fit: cover;
+    object-position: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    filter: drop-shadow(3px 5px 10px #696969);
+}
+.imgHero:hover{
+    filter: drop-shadow(3px 5px 2px #696969);
+    transition: all .8s;
+}
+.imgHero:active{
+    scale: .9;
+    transition: all .5s;
+}
+
+
+.nameHero{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.descriptionHero{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.posicion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
