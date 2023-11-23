@@ -8,7 +8,7 @@ import "./footer.css"
 const Footer = () => {
     return (
         <footer id='containerFooter'>
-            <img id='logoProsocheFooter' src={logo} alt="Logo Prosche" />
+            <img id='logoFooter' src={logo} alt="Logo Prosche" />
 
             <a id='rrss1' href="https://www.linkedin.com/in/facundolucasmarco/" alt="LinkedIn" target="_blank" rel="noreferrer"><img className='imgsFooter' src={linkedin} alt="linkedin"/></a>
             <a id='rrss2' href="https://github.com/FacundoMarcoBacigalupo" alt="GitHub" target="_blank" rel="noreferrer"><img className='imgsFooter' src={github} alt="github"/></a>
